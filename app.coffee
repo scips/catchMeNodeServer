@@ -1,6 +1,6 @@
 port = process.env.PORT || 8080
 
-io = require('socket.io').listen(8080)
+io = require('socket.io').listen(port)
 data = {}
 gameOn = false
 
