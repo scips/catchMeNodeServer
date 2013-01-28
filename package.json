@@ -1,8 +1,10 @@
 {
   "name": "catchMeNodeServer",
   "version": "0.0.2",
+  "engine": {
+    "node": "0.8.x"
+  },
   "dependencies": {
-    "node": "0.8.x",
     "requirejs": "2.1.4",
     "socket.io": "0.9.13"
   }
